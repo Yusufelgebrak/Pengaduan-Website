@@ -14,7 +14,7 @@ class Tanggapan extends Model
     protected $fillable = [
     'id_tanggapan',
     'id_pengaduan' ,
-    'tgl+tanggapan',
+    'tgl_anggapan',
     'tanggapan',
     'id_petugas',
     ];
