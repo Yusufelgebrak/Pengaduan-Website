@@ -9,10 +9,11 @@ class Pengaduan extends Model
 {
     use HasFactory;
 
-    protected $primarykey = 'nik';
+    protected $table = 'pengaduan';
+
+    protected $primaryKey = 'id_pengaduan';
 
     protected $fillable = [
-       'id_pengaduan',
        'tgl_pengaduan' ,
        'nik',
        'judul_laporan',
